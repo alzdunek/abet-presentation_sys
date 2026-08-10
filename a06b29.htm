@@ -107,24 +107,15 @@ UIC Course Description
 </td></tr>
 </table>
 
-<!--=====================================================================
-    SEMESTER BLOCK TEMPLATE
-    Copy everything between the "BEGIN SEMESTER BLOCK" and
-    "END SEMESTER BLOCK" markers below to add another semester
-    (e.g. when the course is offered again). Update the semester
-    title, syllabus link, instructor/TA/lecture details, grade
-    distribution and the student-work links accordingly.
-    =====================================================================-->
-
-<!--########## BEGIN SEMESTER BLOCK: Fall 2026 ##########-->
+<!-- To add another semester later, copy everything from the next <br/><hr/><br/>
+     down to the matching END CONTENT RIGHT closing </div>, then update the
+     semester title, syllabus link, general info, grade weights and student
+     work links/paths for that term. -->
 
 <br/><hr/><br/>
 <div class="ctitle2a">
      Fall 2026
-     <!-- Once the student syllabus PDF is available, point the form action
-          at it and uncomment, following the ChE 201 pattern, e.g.:
      <form action="docs/che457/che457f26_syllabus.pdf" method="get"><input type="submit" value="  Student Syllabus  "></form>
-     -->
 </div>
 <hr/><br/><br/>
 
@@ -146,12 +137,12 @@ Instructor
 </th>
 <td>
 Vivek Sharma
-<!-- <br />
-Office: TBD
+<br />
+EIB TBD
 <br />
 Phone: TBD
 <br />
-Email: vivek@uic.edu -->
+Email: vivek@uic.edu
 </td>
 </tr>
 
@@ -160,7 +151,9 @@ Email: vivek@uic.edu -->
 Teaching assistant
 </th>
 <td>
-<!-- TBD -->
+TBD
+<br />
+Email: TBD
 </td>
 </tr>
 
@@ -169,11 +162,11 @@ Teaching assistant
 Lectures
 </th>
 <td>
-<!-- e.g. Mondays, Wednesdays and Fridays
+TBD
 <br />
-11:00-11:50
+TBD
 <br />
-EIB 124 -->
+TBD
 </td>
 </tr>
 
@@ -182,7 +175,7 @@ EIB 124 -->
 Office hours
 </th>
 <td>
-<!-- e.g. Dr. V. Sharma: by appointment -->
+Dr. V. Sharma: by appointment
 </td>
 </tr>
 
@@ -192,13 +185,11 @@ Office hours
 
 <table>
 <tr><th>Category            </th><th>Weight</th></tr>
-<!-- Fill in once the student syllabus grading breakdown is available, e.g.:
-<tr><td>Homework            </td><td>15%   </td></tr>
-<tr><td>Exams(20% Each)     </td><td>40%   </td></tr>
-<tr><td>Research Proposal   </td><td>20%   </td></tr>
-<tr><td>Oral Presentation   </td><td>10%   </td></tr>
-<tr><td>Attendance          </td><td>5%   </td></tr>
--->
+<tr><td>Homework            </td><td>TBD   </td></tr>
+<tr><td>Exams                </td><td>TBD   </td></tr>
+<tr><td>Research Proposal   </td><td>TBD   </td></tr>
+<tr><td>Oral Presentation   </td><td>TBD   </td></tr>
+<tr><td>Attendance          </td><td>TBD   </td></tr>
 </table>
 
 
@@ -218,12 +209,11 @@ Office hours
 <div class="title2a">Samples of Student Work</div>
 
 <!-- Homework/exam/project files are not yet available for this course.
-     The table below mirrors the ChE 201 layout so rows can be filled in
-     directly once the assignment PDFs and student-work samples are on
-     hand. Duplicate a <tr> block for each additional homework/exam/quiz,
-     and update the file paths to match the folder structure used for
-     this course's documents (e.g. "docs/2026 CHE 457/Fall 2026/...").
--->
+     Links below follow the same folder convention as ChE 201
+     ("docs/2026 CHE 457/Fall 2026/...") and will be broken until the
+     actual files are uploaded to those paths - update paths/filenames
+     once the real files are on hand, and duplicate a <tr> per additional
+     homework/exam/quiz as needed. -->
 
 <table>
 
@@ -236,7 +226,6 @@ Student Work Samples
 </th>
 </tr>
 
-<!-- Example row - duplicate and update per homework once files exist:
 <tr>
 <td>
 #01
@@ -247,7 +236,28 @@ Student Work Samples
 <a href="docs/2026 CHE 457/Fall 2026/Homework/HW 1/Sample 3.pdf"> 3 </a>
 </td>
 </tr>
--->
+
+<tr>
+<td>
+#02
+</td>
+<td>
+<a href="docs/2026 CHE 457/Fall 2026/Homework/HW 2/Sample 1.pdf"> 1 </a>,
+<a href="docs/2026 CHE 457/Fall 2026/Homework/HW 2/Sample 2.pdf"> 2 </a>,
+<a href="docs/2026 CHE 457/Fall 2026/Homework/HW 2/Sample 3.pdf"> 3 </a>
+</td>
+</tr>
+
+<tr>
+<td>
+#03
+</td>
+<td>
+<a href="docs/2026 CHE 457/Fall 2026/Homework/HW 3/Sample 1.pdf"> 1 </a>,
+<a href="docs/2026 CHE 457/Fall 2026/Homework/HW 3/Sample 2.pdf"> 2 </a>,
+<a href="docs/2026 CHE 457/Fall 2026/Homework/HW 3/Sample 3.pdf"> 3 </a>
+</td>
+</tr>
 
 <tr>
 <th>
@@ -258,7 +268,6 @@ Student Work Samples
 </th>
 </tr>
 
-<!-- Example row - duplicate and update per exam once files exist:
 <tr>
 <td>
 #1
@@ -269,6 +278,7 @@ Student Work Samples
 <a href="docs/2026 CHE 457/Fall 2026/Exams/Midterm/Midterm 1/Sample 3.pdf"> 3 </a>
 </td>
 </tr>
+
 <tr>
 <td>
 Final
@@ -279,7 +289,6 @@ Final
 <a href="docs/2026 CHE 457/Fall 2026/Exams/Final Exam/Sample 3.pdf"> 3 </a>
 </td>
 </tr>
--->
 
 <tr>
 <th>
@@ -290,9 +299,6 @@ Student Work
 </th>
 </tr>
 
-<!-- The ABET syllabus for this course lists a written research proposal
-     and an oral presentation as course outcomes - add rows once samples
-     exist, e.g.:
 <tr>
 <td>
 Research Proposal
@@ -301,7 +307,15 @@ Research Proposal
 <a href="docs/2026 CHE 457/Fall 2026/Other Assignments/Research Proposal Sample.pdf"> Sample </a>
 </td>
 </tr>
--->
+
+<tr>
+<td>
+Oral Presentation
+</td>
+<td>
+<a href="docs/2026 CHE 457/Fall 2026/Other Assignments/Oral Presentation Sample.pdf"> Sample </a>
+</td>
+</tr>
 
 </table>
 
@@ -311,8 +325,6 @@ Research Proposal
     #################-->
 
 </div><div class="clear"></div>
-
-<!--########## END SEMESTER BLOCK: Fall 2026 ##########-->
 
 
 <!--########## END CONTENT ##########-->
